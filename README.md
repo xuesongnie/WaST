@@ -42,7 +42,7 @@ Please refer to [install.md](docs/en/install.md) for more detailed instructions.
 
 ## Getting Started
 
-Please see [get_started.md](docs/en/get_started.md) for the basic usage. Here is an example of single GPU non-distributed training SimVP+gSTA on Moving MNIST dataset.
+Please see [get_started.md](docs/en/get_started.md) for the basic usage. Here is an example of single GPU non-distributed training WaST on TaxiBJ dataset.
 ```shell
 bash tools/prepare_data/download_taxibj.sh
 python tools/train.py -d mmnist --lr 1e-3 -c configs/taxibj/WaST.py --ex_name mmnist_wast
